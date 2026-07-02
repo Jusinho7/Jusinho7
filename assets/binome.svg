@@ -1,0 +1,72 @@
+<svg width="260" height="360" viewBox="0 0 260 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-binome.svg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="55%" stop-color="#003b00"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+    <linearGradient id="shine-binome.svg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00ff41" stop-opacity="0.18"/>
+      <stop offset="40%" stop-color="#00ff41" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow-binome.svg">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- outer card shape -->
+  <path d="M20 4 H240 L256 20 V320 L130 356 L4 320 V20 Z"
+        fill="url(#bg-binome.svg)" stroke="#00ff41" stroke-width="2"/>
+  <path d="M20 4 H240 L256 20 V320 L130 356 L4 320 V20 Z"
+        fill="url(#shine-binome.svg)"/>
+
+  <!-- inner border -->
+  <path d="M26 10 H234 L250 24 V315 L130 349 L10 315 V24 Z"
+        fill="none" stroke="#00b32d" stroke-width="1" opacity="0.6"/>
+
+  <!-- rating -->
+  <text x="34" y="62" font-family="Consolas, monospace" font-size="40" font-weight="bold" fill="#00ff41" filter="url(#glow-binome.svg)">82</text>
+  <text x="34" y="80" font-family="Consolas, monospace" font-size="13" fill="#a8ffb0" letter-spacing="2">C · BINÔME</text>
+  <line x1="26" y1="90" x2="80" y2="90" stroke="#00b32d" stroke-width="1"/>
+
+  <!-- corner emblem -->
+  <circle cx="220" cy="38" r="20" fill="#050505" stroke="#00ff41" stroke-width="1.5"/>
+  <text x="220" y="45" font-family="Consolas, monospace" font-size="18" fill="#00ff41" text-anchor="middle">⚙</text>
+
+  <!-- center icon -->
+  <text x="130" y="150" font-family="Consolas, monospace" font-size="46" fill="#00ff41" text-anchor="middle" opacity="0.9">⚙</text>
+
+  <!-- name banner -->
+  <text x="130" y="200" font-family="Consolas, monospace" font-size="19" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="1">BINOME</text>
+  <text x="130" y="218" font-family="Consolas, monospace" font-size="10.5" fill="#00ff41" text-anchor="middle" letter-spacing="1">TRAVAIL D'ÉQUIPE</text>
+  <line x1="50" y1="230" x2="210" y2="230" stroke="#00b32d" stroke-width="1" opacity="0.7"/>
+
+  
+        <text x="30" y="261" font-family="Consolas, monospace" font-size="11" fill="#cfffd8" letter-spacing="1">LANGAGE · C</text>
+        <text x="230" y="261" font-family="Consolas, monospace" font-size="11" fill="#00ff41" text-anchor="end" font-weight="bold">82</text>
+        
+    <rect x="30" y="266" width="200" height="6" rx="3.0" fill="#0a1f0a" stroke="#0d3b0d" stroke-width="1"/>
+    <rect x="30" y="266" width="166" height="6" rx="3.0" fill="#00ff41"/>
+    
+        
+        <text x="30" y="293" font-family="Consolas, monospace" font-size="11" fill="#cfffd8" letter-spacing="1">COLLABORATION</text>
+        <text x="230" y="293" font-family="Consolas, monospace" font-size="11" fill="#00ff41" text-anchor="end" font-weight="bold">88</text>
+        
+    <rect x="30" y="298" width="200" height="6" rx="3.0" fill="#0a1f0a" stroke="#0d3b0d" stroke-width="1"/>
+    <rect x="30" y="298" width="178" height="6" rx="3.0" fill="#00ff41"/>
+    
+        
+        <text x="30" y="325" font-family="Consolas, monospace" font-size="11" fill="#cfffd8" letter-spacing="1">LOGIQUE</text>
+        <text x="230" y="325" font-family="Consolas, monospace" font-size="11" fill="#00ff41" text-anchor="end" font-weight="bold">80</text>
+        
+    <rect x="30" y="330" width="200" height="6" rx="3.0" fill="#0a1f0a" stroke="#0d3b0d" stroke-width="1"/>
+    <rect x="30" y="330" width="162" height="6" rx="3.0" fill="#00ff41"/>
+    
+        
+
+  <text x="130" y="344" font-family="Consolas, monospace" font-size="9" fill="#00b32d" text-anchor="middle" letter-spacing="2">JUSINHO7_OS</text>
+</svg>

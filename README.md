@@ -83,18 +83,26 @@ motto:       "sudo make me a better developer"
 
 </details>
 
-<details>
-<summary>📂 <b>projects/</b> — <i>6 items</i></summary>
+<details open>
+<summary>📂 <b>projects/</b> — <i>6 items · vue cartes</i></summary>
 <br/>
 
-| 📁 Dossier | Type | Description |
-|:--|:--|:--|
-| `Karataka/` | 🎮 Ren'Py | Visual novel — projet scolaire |
-| `Binome/` | ⚙️ C | Projet en binôme |
-| `log/` | ⚙️ C++ | Projet C++ |
-| `minset/` | 🎨 CSS | Projet personnel |
-| `Portfolio/` | 🎨 CSS | Portfolio en ligne |
-| `sparkup/` | 🌐 PHP | Projet scolaire |
+<div align="center">
+
+<table>
+<tr>
+<td align="center"><img src="./assets/portfolio.svg" width="220"/></td>
+<td align="center"><img src="./assets/karataka.svg" width="220"/></td>
+<td align="center"><img src="./assets/log.svg" width="220"/></td>
+</tr>
+<tr>
+<td align="center"><img src="./assets/binome.svg" width="220"/></td>
+<td align="center"><img src="./assets/sparkup.svg" width="220"/></td>
+<td align="center"><img src="./assets/minset.svg" width="220"/></td>
+</tr>
+</table>
+
+</div>
 
 </details>
 
